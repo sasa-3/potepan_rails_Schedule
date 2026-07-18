@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>最初のページ</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+        <nav class="header">
+        <ul><span class="nav">
+            <li><a class="item" href="#">ホーム</a></li>
+            <li><a class="item" href="#">サービス</a></li>
+            <li><a class="item" href="#">お問い合わせ</a></li>
+        </span></ul>
+        </nav>
+        <h1>Hello, World!</h1>
+        </header>
+
+        <main>
+        <p class="wakusen">これが私の最初のHTMLファイルです。</p>
+        <!-- この部分はコメントアウトされます-->
+         <p class="heading">セクションタイトル</p>
+         <p>テキストテキスト<span class="red-text">ここだけ赤色</span>テキストテキスト</p>
+         <div class="box box-red">あかいろ</div>
+         <div class="box box-purple">むらさきいろ</div>
+         <div class="box box-blue">あおいろ</div>
+         <div class="box box-green">みどりいろ</div>
+         <div class="link">続きを読む</div>
+         <img class="oji" src="https://images.pexels.com/photos/36270128/pexels-photo-36270128.jpeg" alt="カメラを持ったおじさん">
+         <a class="pc-only">パソコンでしか見えない文章です</a>
+        </main>
+
+        <footer>
+         <form class="form" action="sample_url">
+            <div>
+                <label dor="name">名前</label>
+                <input type="text" id="name" name="name" placeholder="例：山田太郎">
+            </div>
+
+            <div>
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" placeholder="example@potepan.com">
+            </div>
+
+            <div>
+                <label for="message">お問い合わせ内容</label>
+                <textarea id="massage" name="massage"></textarea>
+                <input type="submit" value="送信する">
+            </div>
+
+         </form>
+
+         <form action="sample_url">
+            <a>コメント</a>
+            <input type="text">
+            <button type="submit">送信</button>
+            <button type="reset">リセット</button>
+         </form>
+         <button class="maru" type="button">押せ</button>
+         <button class="maru2" type="button" disabled>押すな</button>
+         <a href="https://camp.potepan.com/courses/rails-career" target="_blank" rel="noopener noreferrer">ポテパンキャンプへ(外部リンク)</a>
+         <p>© 2026 サンプル株式会社</p>
+        </footer>
+        </body>
+</html>
